@@ -1,22 +1,17 @@
 /*
 Navbar
-======
 */
 
 .navbar {
     background: #C16010;
     z-index: 10;
-    box-shadow: black 0 0 10px;
+    box-shadow: #C16010 0 0 10px;
 }
 
 .navbar img {
     width: 4%;
     width: 3em;
     margin-left: 6%;
-}
-
-.navbar img:nth-child(2) {
-    width: 40%;
 }
 
 .navbar ul {
@@ -26,11 +21,11 @@ Navbar
 .navbar li {
     width: 10%;
     /*text-align: right;*/
-    margin-right: 9%;
+    margin-left: 9%;
 }
 
 .link1 {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .nav-link {
@@ -38,34 +33,51 @@ Navbar
     z-index: 10;
 }
 
-.navbar .dropdown-menu {
-    top: 200%;
-    right: 0px !important;
-    text-align: center;
-    background: #015A6FAA;
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-.navbar .dropdown-item {
-    color: white !important;
-    transition: .2s;
-}
-
-.navbar .dropdown-item:hover {
-    background: #28C1E5AA;
-}
-
 .navbar .responsive-nav {
     position: absolute;
     overflow: hidden;
 }
 
+.index-title h1 {
+    color: white;
+    padding-top: 10%;
+    text-shadow: orangered 0 0 3px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    margin-bottom: 1em;
+}
 
-/*Parallax
-==========
+.index-grid {
+    background: white;
+    width: 90%;
+    box-shadow: orangered 0 0 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.index-gridsm {
+    background: white;
+    width: 20%;
+    box-shadow: orangered 0 0 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.index-gridlg {
+    background: white;
+    width: 70%;
+    box-shadow: orangered 0 0 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+/*
+Parallax
 */
 
+
+/*
 .parallax-image {
     background-image: url("img/Parallax-bild.jpg");
     max-width: 100%;
@@ -76,4 +88,96 @@ Navbar
     Background-repeat: no-repeat;
     margin-bottom: 0px;
     z-index: -100;
+}
+*/
+
+
+/* 
+Responsive
+*/
+
+@media (max-width: 991px) {
+    .navimg {
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+    .dropdown {
+        position: absolute;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .navbar img {
+        height: 40px;
+        width: auto;
+    }
+}
+
+
+/*
+General
+*/
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #5B3C21;
+    transition: 3s;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+@media (min-width: 991px) {
+    .carousel {
+        margin-top: 3%;
+        width: 50%;
+        height: 50em;
+        margin-left: 25%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 990px) {
+    .carousel {
+        margin-top: 10%;
+        width: 75%;
+        height: 90%;
+        margin-left: 10%;
+        overflow: hidden;
+    }
+}
+
+
+/*
+IMG
+*/
+
+.recipe-container {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    z-index: -10;
+}
+
+recipe-margin {
+    margin-left: 10%;
+    margin-left: 10%;
+}
+
+.recipe-img img {
+    position: absolute;
+}
+
+.distance {
+    margin-top: 3em;
 }
