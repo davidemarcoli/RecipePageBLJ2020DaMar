@@ -8,6 +8,8 @@ General
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .recipetext {
@@ -31,6 +33,19 @@ General
     text-decoration: none;
     color: black;
     margin-bottom: 0.5em;
+}
+
+.download-button {
+    border-radius: 15px;
+    transition: 1s;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+.download-button:hover {
+    transform: scale(1.1);
 }
 
 
