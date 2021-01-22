@@ -4,6 +4,7 @@ General
 
 .recipe-text {
     font-family: 'Yusei Magic', sans-serif;
+    font-size: 1.75em;
 }
 
 .need {
@@ -22,6 +23,7 @@ General
     font-weight: 800;
     text-decoration: none;
     color: black;
+    margin-bottom: 0.5em;
 }
 
 
