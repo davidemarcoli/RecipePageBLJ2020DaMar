@@ -6,6 +6,8 @@ Navbar
     background: #C16010;
     z-index: 10;
     box-shadow: #C16010 0 0 10px;
+    position: fixed !important;
+    width: 100%;
 }
 
 .navbar img {
@@ -81,10 +83,8 @@ Navbar
 Parallax
 */
 
-
-/*
 .parallax-image {
-    background-image: url("img/Parallax-bild.jpg");
+    background-image: url("images/cooking/16.jpg");
     max-width: 100%;
     height: 900px;
     background-size: cover;
@@ -94,7 +94,10 @@ Parallax
     margin-bottom: 0px;
     z-index: -100;
 }
-*/
+
+.parallax {
+    width: 100%;
+}
 
 
 /* 
@@ -135,12 +138,22 @@ a:active {
     color: #aaaaaa;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1201px) {
     .carousel {
         margin-top: 3%;
-        width: 50%;
-        height: 35em;
-        margin-left: 25%;
+        width: 75%;
+        height: 50em;
+        margin-left: 12.5%;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 991px) AND (max-width: 1200px) {
+    .carousel {
+        margin-top: 3%;
+        width: 65%;
+        height: 40em;
+        margin-left: 17.5%;
         overflow: hidden;
     }
 }
@@ -148,9 +161,9 @@ a:active {
 @media (max-width: 990px) {
     .carousel {
         margin-top: 10%;
-        width: 75%;
+        width: 85%;
         height: 90%;
-        margin-left: 10%;
+        margin-left: 7.5%;
         overflow: hidden;
     }
 }
@@ -163,7 +176,7 @@ IMG
 .recipe-container {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 75%;
     overflow: hidden;
     z-index: -10;
 }
@@ -181,15 +194,36 @@ recipe-margin {
     margin-top: 3em;
 }
 
+.bigimg {
+    width: 100%;
+}
+
+#img1 {
+    width: 100%;
+    transform: scaleX(1.053);
+    border-radius: 5px;
+}
+
 
 /*
 Footer
 ======
 */
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C16010;
+    color: white;
+    text-align: center;
+}
+
 .footerstyle {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background: #C16010;
     color: white;
@@ -197,9 +231,27 @@ Footer
     font-size: 0.8em;
     box-shadow: #C16010 0 0 10px;
     padding-top: 100px;
+    text-align: center;
 }
 
-#footerfix {
+footer {
+    ​​​​​position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #C16010;
+    color: #fff;
+    text-align: center;
+    box-shadow: #C16010 0 0 5px;
+    z-index: 10;
+}
+
+.paddingfix {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 20px;
+}
+
+​​​​​ #footerfix {
     margin-left: -25%;
 }
 
