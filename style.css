@@ -1,4 +1,31 @@
 /*
+General
+*/
+
+.recipe-text {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.need {
+    font-family: 'Marck Script', cursive;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.needtext {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+}
+
+.download {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*
 Navbar
 */
 
