@@ -5,6 +5,13 @@ General
 .recipe-text {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 1.75em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipetext {
+    position: center !important;
 }
 
 .need {
