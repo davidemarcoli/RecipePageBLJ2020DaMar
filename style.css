@@ -49,6 +49,30 @@ General
 }
 
 
+/*.impressumtext {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 1.75em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}*/
+
+.impressumtitle {
+    font-family: 'Marck Script', cursive;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.impressumtext {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+}
+
+.impressummargin {}
+
+
 /*
 Navbar
 */
